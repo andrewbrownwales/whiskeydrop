@@ -57,15 +57,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="feature col-md-6">
+                <!--left out col-12 below as default. Had to use col-12 on div to be hidden to give col padding-->
+                <div class="feature col-md-6 col-lg-4">
                     <h3>Feature 1</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div class="feature col-md-6">
+                <div class="feature col-md-6 col-lg-4">
                     <h3>Feature 2</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div class="feature col-12 d-md-none">
+                <!--This div is hidden on md devices display again on lg-->
+                <div class="feature col-12 d-md-none d-lg-block col-lg-4">
                     <h3>Feature 3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
